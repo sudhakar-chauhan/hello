@@ -1,0 +1,31 @@
+@use '../abstract/color' as *;
+
+    @each $shades, $color in $colors{
+
+
+        @each $shade, $value in $color{
+
+            .clr-#{$shades}-#{$shade}{
+                color: $value  !important;
+            }
+
+            .bg-#{$shades}-#{$shade}{
+                background-color: $value  !important;
+            }
+        }
+    }
+    
+
+
+    
+.red-color{
+
+
+    color: var(--clr-primary-400);
+}
+
+.bg-gradient-gray{
+    
+    background: linear-gradient(179deg,#fff 80%,#f5f5f7);
+
+}

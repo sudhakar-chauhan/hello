@@ -1,0 +1,95 @@
+@use '../abstract/typo' as * ;
+@use '../abstract/mixin' as * ;
+
+
+
+
+@each $size, $value in $fs {
+
+    .fs-#{$size}{
+        font-size: $value;
+    }
+
+}
+@each $size, $value in $fw {
+
+    .fw-#{$size}{
+        font-weight: $value;
+    }
+
+}
+
+
+/* base typography */
+
+
+p{
+    font: {
+        size: var(--fs-18);
+        weight: 300;
+    }
+    color: var(--clr-neutral-400);
+    line-height: 1.4;
+
+    @include mq('md'){
+
+        font-size: var(--fs-16);
+    }
+    
+}
+.section-heading{
+    font: {
+        size: var(--fs-48);
+        weight: 700;
+
+
+    
+    }
+
+    
+    @include mq('lg'){
+
+        font-size: var(--fs-32);
+
+    }
+    @include mq('md'){
+
+        font-size: var(--fs-26);
+
+    }
+    color: var(--clr-neutral-600);
+    line-height: 1.4;
+}
+
+.heading-white{
+    font: {
+        size: var(--fs-38);
+        weight: 700;
+    }
+    color: var(--clr-neutral-100);
+    line-height: 1.5;
+
+    &--sm{
+        font-size: var(--fs-32) ;
+    }
+}
+.heading-black{
+    font: {
+        size: var(--fs-40);
+        weight: 700;
+    }
+    color: var(--clr-neutral-600);
+    line-height: 1.5;
+
+    &--sm{
+        font-size: var(--fs-32) ;
+
+        @include mq('md'){
+
+            font-size: var(--fs-28) ;
+
+        }
+    }
+
+}
+

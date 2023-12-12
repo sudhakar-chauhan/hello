@@ -1,0 +1,32 @@
+@use "../abstract/mixin" as *;
+/* Spacer */
+.spacer-bottom-xs{
+    padding-bottom: 30px;
+}
+.eq-spacer-sm{
+    padding: 50px 0px;
+}
+.eq-spacer{
+    padding: 75px 0px;
+}
+
+.eq-spacer-xl{
+    padding: 165px 0px;
+}
+.spacer-top{
+    padding-top: 75px;
+}
+
+
+
+@include mq('lg'){
+
+    .eq-spacer{
+        padding: 40px 0px;
+    }
+    .eq-spacer-sm{
+        padding: 30px 0px;
+    }
+    
+
+}

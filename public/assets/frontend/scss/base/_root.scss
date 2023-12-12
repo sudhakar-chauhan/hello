@@ -1,0 +1,26 @@
+@use "../abstract/color" as *;
+@use "../abstract/typo" as *;
+@use "../abstract/mixin" as *;
+
+
+:root{
+
+
+    @each $shades, $color in $colors{
+
+        @each $shade, $value in $color{
+
+            --clr-#{$shades}-#{$shade}: #{$value};
+        }
+    }
+
+
+    @each $size, $value in $fs{
+        --fs-#{$size}: #{$value};
+
+    }
+    --transition-250: all 250ms ease-in;
+    --box-shadow-sm: 0px 0px 15px -3px rgba(0,0,0,0.2);
+
+   
+}

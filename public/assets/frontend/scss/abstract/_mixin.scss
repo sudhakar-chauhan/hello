@@ -1,0 +1,20 @@
+@use 'breakpoints' as *;
+@use 'sass:map';
+
+
+@mixin mq($size) {
+    $size: map.get($breakpoint, $size);
+
+    @media only screen and (max-width: $size)  {
+
+        @content;
+        
+    }
+}
+
+
+@mixin transition($propert: all, $timie: 250ms, $type: ease-in){
+
+
+    transition: $propert $timie, $type;
+}
