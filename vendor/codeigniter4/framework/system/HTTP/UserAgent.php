@@ -15,6 +15,8 @@ use Config\UserAgents;
 
 /**
  * Abstraction for an HTTP user agent
+ *
+ * @see \CodeIgniter\HTTP\UserAgentTest
  */
 class UserAgent
 {
@@ -112,8 +114,6 @@ class UserAgent
 
     /**
      * Is Browser
-     *
-     * @param string $key
      */
     public function isBrowser(?string $key = null): bool
     {
@@ -132,8 +132,6 @@ class UserAgent
 
     /**
      * Is Robot
-     *
-     * @param string $key
      */
     public function isRobot(?string $key = null): bool
     {
@@ -152,8 +150,6 @@ class UserAgent
 
     /**
      * Is Mobile
-     *
-     * @param string $key
      */
     public function isMobile(?string $key = null): bool
     {

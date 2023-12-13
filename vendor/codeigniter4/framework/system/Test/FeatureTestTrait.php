@@ -39,7 +39,7 @@ trait FeatureTestTrait
      *    ['get', 'home', 'Home::index']
      * ]
      *
-     * @param array $routes
+     * @param array|null $routes Array to set routes
      *
      * @return $this
      */
@@ -47,11 +47,15 @@ trait FeatureTestTrait
     {
         $collection = Services::routes();
 
-        if ($routes) {
+        if ($routes !== null) {
             $collection->resetRoutes();
 
             foreach ($routes as $route) {
-                $collection->{$route[0]}($route[1], $route[2]);
+                if (isset($route[3])) {
+                    $collection->{$route[0]}($route[1], $route[2], $route[3]);
+                } else {
+                    $collection->{$route[0]}($route[1], $route[2]);
+                }
             }
         }
 
@@ -285,13 +289,16 @@ trait FeatureTestTrait
 
         Services::injectMock('uri', $uri);
 
-        $request = Services::request($config, false);
+        $request = Services::incomingrequest($config, false);
 
         $request->setMethod($method);
         $request->setProtocolVersion('1.1');
 
         if ($config->forceGlobalSecureRequests) {
             $_SERVER['HTTPS'] = 'test';
+            $server           = $request->getServer();
+            $server['HTTPS']  = 'test';
+            $request->setGlobal('server', $server);
         }
 
         return $request;

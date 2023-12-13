@@ -1,0 +1,374 @@
+
+body{
+    user-select: none;
+    scroll-behavior: smooth;
+}
+
+
+.btn-primary{
+    background-color: #32569D;
+
+}
+.clr-primary-400{
+    color: #32569D;
+}
+.fileupload .errorMessage{
+    display: block;
+    background: #fff;
+}
+.fileupload input.uploads {
+    cursor: pointer;
+    filter: alpha(opacity=0);
+    font-size: 20px;
+    margin: 0;
+    opacity: 0;
+    padding: 0;
+    position: absolute;
+    right: -3px;
+    top: -3px;
+    padding: 5px;
+}
+.errorMessage{
+
+    color : red;
+    font-weight: 500;
+    padding-top: 5px;
+}
+form label{
+    color: #000;
+}
+
+
+footer.footer{
+    margin-left: 225px;
+}
+
+
+.btn--black{
+    color: #000;
+}
+
+.edit-wrapper-all{
+    gap: 10px;
+}
+
+
+.edit-wrapper-all button, .edit-wrapper-all a {
+    position: relative;
+    padding: 0px;
+}
+.edit-wrapper-all button::before, .edit-wrapper-all a::before{
+    content: '';
+    position: absolute;
+    top: 21%;
+    right: -5px;
+    height: 15px;
+    background-color: #000;
+    width: 1px;
+}
+
+.quick-edit-wrapper img{
+
+    object-fit: contain;
+    
+}
+
+.pagination-wrapper nav{
+    text-align: center;
+}
+/*  Over lay */
+
+.overlay{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background-color: #00000043;
+    opacity: 0;
+}
+body.active{
+    overflow: hidden;
+}
+.overlay.active{
+    opacity: 1;
+    z-index: 1040;
+}
+
+#editBulkForm h5{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+
+}
+
+.product-names-wrapper{
+    max-height: 200px;
+    overflow-y: scroll;
+
+}
+
+.product-attributes-category, .attributes-wrapper{
+    padding-inline: 10px;
+}
+.product-attributes-category label, .attributes-wrapper label{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.product-attributes-category input[type="checkbox"]{
+    padding: 5px;
+    border-color: black;
+}
+
+.attribute-category{
+    border: 1px solid black;
+    padding: 15px 20px;
+    box-shadow: 0px 0px 15px -3px rgba(0,0,0,0.2);
+    border-radius: 12px;
+    background: #f9f9f9;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+   
+.attribute-category .light-grey-hr{
+   
+    margin-bottom: 10px;
+}
+.attribute-category input{
+    border-color: black;
+}
+input.error, select.error{
+    border-color: red;
+}
+
+.errors li{
+    color: red;
+}
+
+
+.product-gallery-image-wrapper{
+    position: relative;
+    border: 1px solid black;
+    padding: 20px 10px;
+    margin: 0px 10px;
+}
+.product-gallery-image-wrapper button{
+    position: absolute;
+    right: -9px;
+    top: -8px;
+    background: grey;
+    padding: 6px;
+    border-radius: 50%;
+}
+.product-gallery-image-wrapper button:hover{
+    background: grey;
+   
+}
+.product-gallery-image-wrapper svg{
+    height: 20px;
+    width: 20px;
+}
+
+.review-start-wrapper svg{
+    fill: #f2a33c;
+    stroke: #f2a33c;
+}
+
+
+#viewOrder .modal-header::after, #viewOrder .modal-header::before{
+    
+    display: none;
+}
+#viewOrder h5, h6{
+    font-weight: 600;
+}
+
+#viewOrder p a{
+    color: #2271b1;
+    text-decoration: underline;
+}
+
+#viewOrder .modal-content{
+    border-radius: 12px;
+    padding: 10px 15px;
+}
+#viewOrder p{
+    color: #100f13;
+}
+
+#viewOrder .accordion-button:not(.collapsed), #viewOrder .accordion-button:focus{
+    background-color: transparent;
+    box-shadow: none;
+    border-color: none;
+    
+}
+
+#viewOrder .cart-items {
+    max-height: 400px;
+    overflow: hidden;
+    overflow-y: scroll;
+
+}
+#viewOrder .accordion-button{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+#viewOrder  .cart-price{
+font-size: 18px;
+font-weight: 500;
+}
+
+#viewOrder .cart-item{
+    border: 0px;
+    border-top: 1px solid #100f13;
+    border-radius: 0px;
+}
+
+span.order-number{
+    color: #f01e00;
+    font-weight: 500;
+}
+
+span.status_pending{
+    color: #777;
+    background: #e5e5e5;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+span.status_processing{
+    color: #5b841b;
+    background: #c6e1c6;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+span.status_shipped{
+    color: #5b841b;
+    background: #c6e1c6;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.status_shipped--bg{
+    color: #2196F3;
+    background: #2196F3;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.status_total{
+    color: #2F539B;
+    background: #2F539B;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+span.status_delivered{
+    color: #5b841b;
+    background: #c6e1c6;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+span.status_canceled{
+    color: red;
+    background: #ff00002b;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+span.status_hold{
+    color: #f8dda7;
+    background: #94660c;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+span.status_refunded{
+    color: red;
+    background: #ff00002b;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+span.status_payment_failed{
+    color: red;
+    background: #ff00002b;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.input-dollar-wrapper{
+    border-right: 0px;
+}
+.input-dollar{
+    background: #f4f4f4;
+    padding: 10px;
+    color: #000
+
+}
+
+/*  Modal */
+.modal-dialog{
+    height: 100%;
+    padding-bottom: 50px;
+}
+.modal-content{
+    overflow-y: auto;
+  
+}
+.modal-height-100 .modal-content{
+    height: 100%;
+
+}
+
+.accordion-custom .accordion-heading{
+    font-size: 24px;
+    font-weight: 500;
+}
+.accordion-custom .pannel-body{
+    padding: 0px;
+
+}
+.accordion-custom i{
+  color: #fff;
+    padding-right: 15px;
+    
+}
+.accordion-custom i.fa-chevron-up{
+  color: #fff;
+  
+    
+}
+.accordion-heading + i.fa-chevron-down{
+    display: none;
+} 
+.accordion-heading.collapsed + i.fa-chevron-down{
+    display: block;
+    color:  black;
+
+} 
+.accordion-heading.collapsed ~ i.fa-chevron-up{
+   display: none;
+
+} 
+
+/*  Login */
+
+.password-eye, .password-eye-c{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: var(--clr-neutral-300);
+}
+
+.multiselect-container input {
+    opacity: 1 !important;
+}
+button.multiselect b{
+    display: none;
+}
+@media print {
+    /* Hide the footer area by setting display to none */
+    #toolbarContainer {
+      display: none !important;
+    }
+    footer {
+      display: none !important;
+    }
+  }

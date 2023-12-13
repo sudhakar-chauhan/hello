@@ -33,6 +33,8 @@ use ReturnTypeWillChange;
 
 /**
  * Entity encapsulation, for use with CodeIgniter\Model
+ *
+ * @see \CodeIgniter\Entity\EntityTest
  */
 class Entity implements JsonSerializable
 {
@@ -136,7 +138,7 @@ class Entity implements JsonSerializable
      * properties, using any `setCamelCasedProperty()` methods
      * that may or may not exist.
      *
-     * @param array $data
+     * @param array<string, array|bool|float|int|object|string|null> $data
      *
      * @return $this
      */

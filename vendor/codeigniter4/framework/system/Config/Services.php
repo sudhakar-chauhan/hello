@@ -104,6 +104,7 @@ use Locale;
  *
  * @see http://blog.ircmaxell.com/2015/11/simple-easy-risk-and-change.html
  * @see http://www.infoq.com/presentations/Simple-Made-Easy
+ * @see \CodeIgniter\Config\ServicesTest
  */
 class Services extends BaseService
 {
@@ -520,7 +521,7 @@ class Services extends BaseService
         }
 
         // @TODO remove the following code for backward compatibility
-        return static::incomingrequest($config, $getShared);
+        return AppServices::incomingrequest($config, $getShared);
     }
 
     /**
@@ -781,7 +782,7 @@ class Services extends BaseService
     /**
      * The URI class provides a way to model and manipulate URIs.
      *
-     * @param string $uri
+     * @param string|null $uri The URI string
      *
      * @return URI The current URI if $uri is null.
      */

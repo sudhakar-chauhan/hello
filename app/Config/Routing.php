@@ -51,7 +51,7 @@ class Routing extends BaseRouting
      *
      * Default: 'index'
      */
-    public string $defaultMethod = 'index';
+    public string $defaultMethod = '';
 
     /**
      * Whether to translate dashes in URIs to underscores.

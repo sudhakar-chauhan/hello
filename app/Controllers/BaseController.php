@@ -67,6 +67,7 @@ custom Function User in Controller
     # Sanitize 
     # Create Slug 
     # Send Email
+    # backend all page data 
 =============================================================  */ 
     function __encrip_password($password)
     {
@@ -85,8 +86,6 @@ custom Function User in Controller
         $slug = strtolower(trim(preg_replace('/[\s-]+/', $delimiter, preg_replace('/[^A-Za-z0-9-]+/', $delimiter, preg_replace('/[&]/', 'and', preg_replace('/[\']/', '', iconv('UTF-8', 'ASCII//TRANSLIT', $str))))), $delimiter));
         return $slug;
     }
-
-    
    public function sendEmail($receiver_email, $subject, $message)
    {
 
@@ -101,10 +100,19 @@ custom Function User in Controller
 
            return false;
        }
-   } // Send Email
+   } 
+
+   function backendAllPages(){
+    $data ['notification'] = $this->Admin_model->select_orders_notfication();
+    $data['headerLinks'] = $this->Home_model->select_data('header','*',array(
+        'location'=> 'link'
+    ));
+    return $data;
+}
+
 }
 
 
 
 
-}
+
