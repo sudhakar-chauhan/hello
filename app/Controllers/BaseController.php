@@ -8,6 +8,10 @@ use CodeIgniter\HTTP\IncomingRequest;
 use CodeIgniter\HTTP\RequestInterface;
 use CodeIgniter\HTTP\ResponseInterface;
 use Psr\Log\LoggerInterface;
+use UnexpectedValueException;
+use Exception;
+use Firebase\JWT\JWT;
+use Firebase\JWT\Key;
 
 /**
  * Class BaseController
@@ -69,6 +73,105 @@ custom Function User in Controller
     # Send Email
     # backend all page data 
 =============================================================  */ 
+public function createjwtToken($id, $email)
+{
+
+    $user_data = [
+        'id' => $id,
+        'email' => $email
+        
+    ];
+    $payload = [
+        'iss' => 'geauxchef',
+        'aud' => 'users',
+        'iat' => time(),
+        'nbf' => time(),
+        'exp' => time() + YEAR,
+        'data' => $user_data
+    ];
+
+
+    $token = JWT::encode($payload, JWT_KEY, 'HS256');
+
+    return $token;
+}
+
+
+    public function decodejwtToken($token)
+   {
+   
+
+       try {
+
+           $decodeToken =  JWT::decode($token,  new Key(JWT_KEY, 'HS256'));
+          
+          
+       } catch (Exception $ex) {
+
+
+           $data['valid'] = false;
+           $data['message'] = $ex->getMessage();
+          
+          return $data;
+       }
+       
+     
+       $data['valid'] = true;
+       $data ['decodeToken'] = $decodeToken;
+     
+
+       return $data;
+       
+   }
+ 
+
+    
+   public function checkJWT(){
+
+    if(! $this->request->hasHeader('token')){
+
+        $response = [
+            'status' => 'error',
+            'code' => 400,
+            'message' => 'Token is not available',
+
+        ];
+        return $this->setResponseFormat('json')->respond($response, 200);
+
+    }
+
+    $getJwtToken = $this->request->header('token')->getValue();
+
+
+
+     $isValid = $this->decodejwtToken($getJwtToken);
+     
+
+      if(! $isValid['valid']){
+         $response = [
+             'status' => 'error',
+             'code' => 400,
+             'message' => 'Token is Invalid: '. $isValid['message'],
+         ];
+         return $this->setResponseFormat('json')->respond($response, 200);
+      }
+
+       $check_user = $this->Home_model->select_value('user','user_id',array(
+         'user_id'=> $isValid['decodeToken']->data->id,
+        
+       ));
+       if(! $check_user){
+                $response = [
+                    'status' => 'error',
+                    'code' => 400,
+                    'message' => 'Something Went wrong. Plese try again or log out',
+                ];
+                return $this->setResponseFormat('json')->respond($response, 200);
+       }
+
+
+
+}
     function __encrip_password($password)
     {
         return $hashInput =  password_hash($password, PASSWORD_BCRYPT);

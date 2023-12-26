@@ -88,6 +88,12 @@ define('EVENT_PRIORITY_LOW', 200);
  */
 define('EVENT_PRIORITY_NORMAL', 100);
 
+/*
+JSW Screate Key
+*/
+
+defined('JWT_KEY') || define('JWT_KEY', 'sahilyadav123');
+
 /**
  * @deprecated Use \CodeIgniter\Events\Events::PRIORITY_HIGH instead.
  */

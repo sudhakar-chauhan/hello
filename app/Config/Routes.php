@@ -30,6 +30,7 @@ $routes->set404Override();
 
 // Test page
 $routes->get('test', 'Home::test');
+$routes->get('/', 'Home::index');
 
 
 
@@ -169,6 +170,28 @@ $routes->group('admin', static function ($routes){
     $routes->get('blog-categories/search', 'Admin::getBlogCategories');
 });
 
+
+// ===============  API Routes =================== // 
+
+$routes->group('api/v1/claim', static function($routes){
+
+     $routes->post('login', 'Api\V1\Home::login');
+     $routes->post('', 'Api\V1\Home::createUsers');
+     $routes->get('claim', 'Api\V1\Home::getClaim');
+     $routes->get('claim/(:num)', 'Api\V1\Home::getclaimDetails/$1');
+     $routes->post('domestic', 'Api\V1\Home::createDomestic');
+     $routes->post('home', 'Api\V1\Home::createHome');
+     $routes->post('motor-vehicle', 'Api\V1\Home::createMotorvehicle');
+     $routes->get('trade-help', 'Api\V1\Home::getTradehelp');
+     $routes->get('trade-help/(:num)', 'Api\V1\Home::getTradeDetails/$1');
+     $routes->post('support', 'Api\V1\Home::support');
+     $routes->get('support', 'Api\V1\Home::getSupport');
+     $routes->get('support-chat/(:any)', 'Api\V1\Home::getSupportChat/$1');
+     $routes->post('support-chat/(:any)', 'Api\V1\Home::setSupportChat/$1');
+
+
+
+});
 /*
  * --------------------------------------------------------------------
  * Additional Routing

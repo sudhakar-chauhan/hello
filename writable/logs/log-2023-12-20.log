@@ -1,0 +1,449 @@
+WARNING - 2023-12-20 10:10:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$Home_model is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 10:10:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$uri is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 10:10:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$pager is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 10:10:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$validation is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 10:10:55 --> [DEPRECATED] trim(): Passing null to parameter #1 ($string) of type string is deprecated in SYSTEMPATH\Validation\Validation.php on line 298.
+ 1 SYSTEMPATH\Validation\Validation.php(298): trim(null)
+ 2 SYSTEMPATH\Validation\Validation.php(197): CodeIgniter\Validation\Validation->processRules('message', 'Message', null, [...], [...])
+ 3 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Api\V1\Home.php(1055): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Api\V1\Home->Support()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 10:11:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$Home_model is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 10:11:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$uri is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 10:11:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$pager is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 10:11:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$validation is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 10:11:29 --> Undefined property: App\Controllers\Api\V1\Home::$Admin_model
+in APPPATH\Controllers\Api\V1\Home.php on line 1076.
+ 1 APPPATH\Controllers\Api\V1\Home.php(1076): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Api\\V1\\Home::$Admin_model', 'C:\\xampp\\htdocs\\insuranceSorted\\app\\Controllers\\Api\\V1\\Home.php', 1076)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Api\V1\Home->Support()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 10:12:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$Home_model is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 10:12:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$uri is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 10:12:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$pager is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 10:12:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$validation is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 10:22:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$Home_model is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 10:22:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$uri is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 10:22:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$pager is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 10:22:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$validation is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 10:38:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$Home_model is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 10:38:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$uri is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 10:38:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$pager is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 10:38:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$validation is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 10:38:17 --> Too few arguments to function App\Controllers\Api\V1\Home::getSupportChat(), 0 passed in C:\xampp\htdocs\insuranceSorted\vendor\codeigniter4\framework\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\Api\V1\Home.php on line 1158.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Api\V1\Home->getSupportChat()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 10:40:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$Home_model is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 10:40:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$uri is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 10:40:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$pager is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 10:40:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$validation is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-20 10:40:07 --> mysqli_sql_exception: Unknown column 'role' in 'field list' in C:\xampp\htdocs\insuranceSorted\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\insuranceSorted\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `support...', 0)
+#1 C:\xampp\htdocs\insuranceSorted\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `support...')
+#2 C:\xampp\htdocs\insuranceSorted\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `support...')
+#3 C:\xampp\htdocs\insuranceSorted\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `support...', Array, false)
+#4 C:\xampp\htdocs\insuranceSorted\app\Models\Home_model.php(35): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\insuranceSorted\app\Controllers\Api\V1\Home.php(1186): App\Models\Home_model->select_data('support_ticket', 'support_id,pare...', Array, 'support_id', 'ASC', '', 20, 0)
+#6 C:\xampp\htdocs\insuranceSorted\vendor\codeigniter4\framework\system\CodeIgniter.php(942): App\Controllers\Api\V1\Home->getSupportChat('1')
+#7 C:\xampp\htdocs\insuranceSorted\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Home))
+#8 C:\xampp\htdocs\insuranceSorted\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\insuranceSorted\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-20 10:40:07 --> Unknown column 'role' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `support_id`, `parent_id`, `user_id`, `is_admin`, `subject`, `message`, `image`, `role`, DATE_FORMAT(created_at, "%d-%M-%y %H:%i") AS created_at
+FROM `support_ticket`
+WHERE `subject_id` IS NULL
+AND `user_id` = :user_id:
+ORDER BY `support_id` ASC
+ LIMIT 20', [...], false)
+ 2 APPPATH\Models\Home_model.php(35): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Api\V1\Home.php(1186): App\Models\Home_model->select_data('support_ticket', 'support_id,parent_id,user_id,is_admin,subject,message,image,role,DATE_FORMAT(created_at, "%d-%M-%y %H:%i") AS created_at', [...], 'support_id', 'ASC', '', 20, 0)
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Api\V1\Home->getSupportChat('1')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\V1\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 10:41:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$Home_model is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 10:41:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$uri is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 10:41:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$pager is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 10:41:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$validation is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 10:41:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$Home_model is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 10:41:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$uri is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 10:41:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$pager is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 10:41:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$validation is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 11:35:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$Home_model is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 11:35:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$uri is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 11:35:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$pager is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 11:35:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$validation is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 11:35:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$Home_model is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 11:35:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$uri is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 11:35:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$pager is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 11:35:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$validation is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 11:35:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$Home_model is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 11:35:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$uri is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 11:35:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$pager is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 11:35:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$validation is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 11:37:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$Home_model is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 11:37:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$uri is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 11:37:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$pager is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 11:37:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$validation is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 11:42:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$Home_model is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 11:42:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$uri is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 11:42:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$pager is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 11:42:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$validation is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 11:44:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$Home_model is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 11:44:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$uri is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 11:44:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$pager is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 11:44:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$validation is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 11:44:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$Home_model is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 11:44:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$uri is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 11:44:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$pager is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 11:44:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$validation is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 11:47:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$Home_model is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 11:47:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$uri is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 11:47:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$pager is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 11:47:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$validation is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 11:48:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$Home_model is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 11:48:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$uri is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 11:48:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$pager is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 11:48:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$validation is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 11:48:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$Home_model is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 11:48:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$uri is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 11:48:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$pager is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 11:48:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$validation is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 11:49:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$Home_model is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 11:49:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$uri is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 11:49:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$pager is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 11:49:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$validation is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 11:58:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$Home_model is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 11:58:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$uri is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 11:58:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$pager is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 11:58:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Api\V1\Home::$validation is deprecated in APPPATH\Controllers\Api\V1\Home.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Api\V1\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
