@@ -11,7 +11,6 @@ $routes = Services::routes();
  * --------------------------------------------------------------------
  */
 $routes->setDefaultNamespace('App\Controllers');
-//sfsnfm,
 $routes->setDefaultController('Home');
 $routes->setDefaultMethod('index');
 $routes->setTranslateURIDashes(false);
@@ -209,3 +208,4 @@ $routes->group('api/v1/claim', static function($routes){
 if (is_file(APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php')) {
     require APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php';
 }
+// 'https://github.com/LNBDigital/insuranceSorted.git'
